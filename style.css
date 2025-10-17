@@ -11,12 +11,7 @@ body{
 #bev, #grid{
     margin: 3em;
 }
-#gridimg{
-    border: 5px solid white;
-    border-radius: 15px;
-    height: auto;
-    max-width: 41rem;
-}
+
 
 p{
     font-family: 'Montserrat', sans-serif;
@@ -29,4 +24,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 400;
     text-align: center;
     margin-bottom: 1rem;
+}
+#boottabla{
+    margin-top: 2em;
 }
