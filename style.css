@@ -4,4 +4,10 @@ body{
     background-image: linear-gradient(45deg, blue, red);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;
+    line-height: 1.5;
+    text-indent: 15px;
+}
+#bev, #grid{
+    margin: 3em;
 }
