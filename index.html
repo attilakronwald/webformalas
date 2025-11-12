@@ -36,16 +36,20 @@
         </section>
         <section id="grid">
             <div class="container-fluid">
-                <h2>Bootstrap</h2>
-                <h2>Ugrás a CSS-hez: <a href="sdsdd"></a></h2>
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2>Bootstrap Gridek</h2>
-                        <p>A Bootstrap grid rendszer három fő elemből áll: **container**, **row** és **col**. A `container` az alapvető keret, amelyen belül a rács működik, és két típusa van: `container` (fix szélességű) és `container-fluid` (teljes szélességű). A `container-fluid` különösen hasznos, ha reszponzív, teljes képernyős elrendezést szeretnénk. A `row` sorokat hoz létre, amelyekben az oszlopok (`col`) helyezkednek el. Minden `row` automatikusan negatív margókat kap, hogy a benne lévő `col` elemek pontosan illeszkedjenek. A `col` osztályok rugalmasan osztják fel a rendelkezésre álló helyet, és méretezhetők különböző képernyőméretekhez (`col-sm`, `col-md`, stb.). Az oszlopok összesen 12 egységből állnak, így például két `col-6` oszlop egy sorban egyenlően osztja el a helyet. A grid rendszer lehetővé teszi komplex, mégis könnyen kezelhető elrendezések kialakítását.
-                        </p>
+                    <div id="kiscimek">
+                        <h2 id="nagycim">Bootstrap</h2>
+                        <h2 id="kisnagycim">Ugrás a CSS-hez: <a href="sdsdd"></a></h2>
                     </div>
-                    <div class="col-md-6">
-                        <img src="./IMG/Bootstrap+grid+layout.webp" alt="bootstrap grid rendszer" title="bootstrap grid rendszer" id="gridimg" class="img-fluid img-thumbnail">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Bootstrap Gridek</h2>
+                            <p>A Bootstrap grid rendszer három fő elemből áll: **container**, **row** és **col**. A `container` az alapvető keret, amelyen belül a rács működik, és két típusa van: `container` (fix szélességű) és `container-fluid` (teljes szélességű). A `container-fluid` különösen hasznos, ha reszponzív, teljes képernyős elrendezést szeretnénk. A `row` sorokat hoz létre, amelyekben az oszlopok (`col`) helyezkednek el. Minden `row` automatikusan negatív margókat kap, hogy a benne lévő `col` elemek pontosan illeszkedjenek. A `col` osztályok rugalmasan osztják fel a rendelkezésre álló helyet, és méretezhetők különböző képernyőméretekhez (`col-sm`, `col-md`, stb.). Az oszlopok összesen 12 egységből állnak, így például két `col-6` oszlop egy sorban egyenlően osztja el a helyet. A grid rendszer lehetővé teszi komplex, mégis könnyen kezelhető elrendezések kialakítását.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./IMG/Bootstrap+grid+layout.webp" alt="bootstrap grid rendszer" title="bootstrap grid rendszer" id="gridimg" class="img-fluid img-thumbnail">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,31 +111,35 @@
             </div>
         </section>
         <section id="kepek">
-            <div class="col-sm-12">
-                <h2>Bootstrap képek</h2>
-                <p>
-                    A Bootstrap képosztályai egyszerű, egységes megjelenést és reszponzív viselkedést adnak a képeknek. Az img-fluid biztosítja, hogy a kép maximális szélessége 100% legyen és arányosan méreteződjön (height: auto), így mobilon is jól reagál. A rounded és rounded-circle osztályok gyorsan lekerekítik a sarkokat vagy teljesen köralakúvá teszik a képet profilokhoz. Az img-thumbnail kis keretet és belső távolságot ad, mintha fotóként lenne bekeretezve. Igény szerint a float-start/float-end és az mx-auto d-block osztályokkal pozícionálhatjuk és középre igazíthatjuk a képeket. A Bootstrap beépített segédosztályai (pl. object-fit-*) lehetővé teszik a vágás- és kitöltési viselkedés finomhangolását, ha a képméretek nem egyeznek. Végül a figure és figcaption kombinációval egyszerűen készíthetünk leírással ellátott, hozzáillő képelemeket.
-                </p>
-            </div>
-            <div class="container-fluid text-center my-4">
-                <div class="row justify-content-center">
-                    <div class="col-md-4">
-                        <figure>
-                            <img src="./IMG/bootstrap kép 1.jpg" class="img-fluid img-thumbnail" alt="majom kép" title="majom kép">
-                            <figcaption class="mt-2 ml-0 text-white">Majom kép</figcaption>
-                        </figure>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Bootstrap képek</h2>
+                        <p>
+                            A Bootstrap képosztályai egyszerű, egységes megjelenést és reszponzív viselkedést adnak a képeknek. Az img-fluid biztosítja, hogy a kép maximális szélessége 100% legyen és arányosan méreteződjön (height: auto), így mobilon is jól reagál. A rounded és rounded-circle osztályok gyorsan lekerekítik a sarkokat vagy teljesen köralakúvá teszik a képet profilokhoz. Az img-thumbnail kis keretet és belső távolságot ad, mintha fotóként lenne bekeretezve. Igény szerint a float-start/float-end és az mx-auto d-block osztályokkal pozícionálhatjuk és középre igazíthatjuk a képeket. A Bootstrap beépített segédosztályai (pl. object-fit-*) lehetővé teszik a vágás- és kitöltési viselkedés finomhangolását, ha a képméretek nem egyeznek. Végül a figure és figcaption kombinációval egyszerűen készíthetünk leírással ellátott, hozzáillő képelemeket.
+                        </p>
                     </div>
-                    <div class="col-md-4">
-                        <figure>
-                            <img src="./IMG/bootstrap kép 2.jpg" class="img-fluid rounded" alt="naplemente kép" title="naplemente kép">
-                            <figcaption class="mt-2 text-white">Naplemente</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-md-4">
-                        <figure>
-                            <img src="./IMG/bootstrap kép 3.avif" class="img-fluid rounded-circle" alt="retro naplemente" title="retro naplemente">
-                            <figcaption class="mt-2 text-white">Retro naplemente</figcaption>
-                        </figure>
+                    <div class="container-fluid text-center my-4">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <figure>
+                                    <img src="./IMG/bootstrap kép 1.jpg" class="img-fluid img-thumbnail" alt="majom kép" title="majom kép">
+                                    <figcaption class="mt-2 ml-0 text-white">Vénusz születése (img-thumbnail)</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-4">
+                                <figure>
+                                    <img src="./IMG/bootstrap kép 2.jpg" class="img-fluid rounded" alt="naplemente kép" title="naplemente kép">
+                                    <figcaption class="mt-2 text-white">Naplemente autóval (rounded)</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-md-4">
+                                <figure>
+                                    <img src="./IMG/bootstrap kép 3.avif" class="img-fluid rounded-circle" alt="retro naplemente" title="retro naplemente">
+                                    <figcaption class="mt-2 text-white">Retro naplemente (rounded-circle)</figcaption>
+                                </figure>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

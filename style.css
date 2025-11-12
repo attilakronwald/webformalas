@@ -11,8 +11,9 @@ body{
 #bev, #grid{
     margin: 3em;
 }
-
-
+section{
+    margin-bottom: 5rem;
+}
 p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -41,3 +42,18 @@ figure img {
   height: auto;
   display: block;
 }
+.menu a{
+    margin: 0 10px;
+}
+#nagycim{
+  font-size: 3.25vw;
+}
+#kisnagycim{
+  font-size: 1.8vw;
+}
+
+#kiscimek{
+  margin-bottom: 2em;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+} 
